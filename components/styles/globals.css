@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #0b1a3a 0%, #3e1f6b 100%);
+  color: #fff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.dream-form input,
+.dream-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.dream-form input {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+.dream-form textarea {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  height: 100px;
+}
+
+.dream-form button {
+  display: block;
+  margin: auto;
+  padding: 0.75rem 1.5rem;
+  background: #5a3e92;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.dream-list {
+  margin-top: 2rem;
+}
+
+.dream-card {
+  background: rgba(255,255,255,0.05);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.dream-header {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.like-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
